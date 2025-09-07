@@ -1,0 +1,7 @@
+Vad innebär samarbete med GitHub? Vad är pull requests, branches och merge? 
+
+Branches är när man kan skapa något eget program som inte stör de orginala (main)  
+
+Pull requests är när man frågar om man får förändra på de main så måste det granskas, kommentera sen då godkänna det 
+
+Merge är då att branches har blivit godkänt för main  
