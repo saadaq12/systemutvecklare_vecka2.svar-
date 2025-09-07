@@ -1,0 +1,51 @@
+# Systemutveckling – Frågor och Svar
+
+## 1. Skillnaden mellan vattenfallsmodellen och agil metodik
+
+### Vattenfallsmodellen
+- Steg-för-steg: krav → design → utveckling → test → drift.  
+- Varje steg måste bli klart innan nästa kan börja.  
+- Passar bäst när kraven är tydliga och inte kommer ändras.  
+- Vanligt i byggprojekt eller myndighetssystem.  
+
+**Fördelar:** tydlig planering, mycket dokumentation.  
+**Nackdelar:** svårt att ändra om något nytt upptäcks under projektet.  
+
+### Agil metodik
+- Iterativ och flexibel process i korta sprintar.  
+- Levererar små delar ofta, med nära samarbete med kund.  
+- Passar bäst när kraven kan förändras under tiden.  
+
+**Fördelar:** lätt att anpassa, snabb feedback.  
+**Nackdelar:** kräver mer engagemang från team och kund.  
+
+### När man ska använda vilken
+- **Vattenfall:** fasta krav, stabil miljö, långsiktiga system.  
+- **Agilt:** osäkra krav, behov av snabb leverans och förändring.  
+
+---
+
+## 2. Git-commit och varför det är viktigt
+
+- Ett **commit** är en sparpunkt i Git – en version av koden.  
+- Låter dig gå tillbaka om något går fel.  
+- Commit-meddelandet dokumenterar ändringen för teamet.  
+
+**Scenario:**  
+Du testar en ny funktion som förstör programmet. Eftersom du gjorde en commit innan du började kan du enkelt återställa till fungerande versionen. Utan commit hade du behövt fixa all kod manuellt.  
+
+---
+
+## 3. Samarbete med GitHub: Pull Requests, Branches och Merge
+
+- **Branch:** en sidogren från main där du utvecklar utan att påverka den stabila koden.  
+- **Pull Request (PR):** en förfrågan om att slå ihop din branch med main. Andra kan granska, kommentera och godkänna.  
+- **Merge:** när en PR godkänts och ändringarna slås ihop med main.  
+
+---
+
+## 4. VG-Krav – Så här jobbar man praktiskt
+
+1. Skapa en ny branch för varje fråga:  
+   ```bash
+   git checkout -b feature-vattenfall-vs-agilt
